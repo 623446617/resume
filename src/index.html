@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>孟宪伟的个人简历</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <script src="//at.alicdn.com/t/font_2388489_8g4sb9b9d67.js"></script>
+    <link rel="stylesheet" href="../libs/swiper/swiper.min.css">
+    <link rel="stylesheet" href="../libs/sortabel/sortable.min.css">
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+
+        .swiper-container {
+            height: 200px;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            padding: 27px 26px 26px 27px;
+            border: 1px solid #d7dbde;
+            margin: 10px auto;
+            color: #3e4452;
+            size: 14px;
+            top: 25px;
+            right: 35px;
+            background-color: #ffffff;
+            /* 设置swiper按钮的大小 */
+            --swiper-navigation-size: 10px;
+
+        }
+
+        .swiper-button-prev:hover,
+        .swiper-button-next:hover {
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 10px 0px;
+        }
+
+        .swiper-button-prev {
+            top: 90px;
+            left: 850px;
+        }
+
+        .swiper-slide {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body onload="onload()">
+
+<div id="loading" class="loading"></div>
+
+<div id="topNavBar" class="topNavBar">
+    <div class="topNavBar-inner clearfix">
+        <a class="logo" href="#" alt="logo" style="float: left;">
+            <span class="rs">MXW</span>
+            <span class="card">card</span>
+        </a>
+        <nav class="menu" style="float: right;">
+            <ul class="clearfix">
+                <li class="active">
+                    <a href="#about">关于</a>
+                </li>
+                <li>
+                    <a href="#experience">工作经历</a>
+                </li>
+                <li>
+                    <a href="#skills">技术能力</a>
+                </li>
+                <li>
+                    <a href="#projects">项目经历</a>
+                </li>
+                <li>
+                    <a href="#works">作品展示</a>
+                    <!--                    <ul class="sub-menu">-->
+                    <!--                        <li>作品1</li>-->
+                    <!--                        <li>作品2</li>-->
+                    <!--                        <li>作品3</li>-->
+                    <!--                    </ul>-->
+                </li>
+                <li>
+                    <a href="#blog">博客文章</a>
+                </li>
+                <li>
+                    <a href="#connect">联系方式</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="banner">
+    <div class="mask"></div>
+</div>
+<main>
+    <div data-x id="about" class="userCard base-shadow">
+        <div class="pictureAndText clearfix">
+            <div class="picture">
+                <img src="./img/avatar.jpg" width=299 height=347 alt="头像">
+            </div>
+            <div class="text">
+          <span class="welcome">Hello
+            <span class="triangle"></span>
+          </span>
+                <h1>孟宪伟</h1>
+                <p>WEB前端开发工程师</p>
+                <hr>
+                <dl>
+                    <dt>年龄</dt>
+                    <dd>31</dd>
+                    <dt>性别</dt>
+                    <dd>男</dd>
+                    <dt>学历</dt>
+                    <dd>大学本科</dd>
+                    <dt>毕业院校</dt>
+                    <dd>吉林化工学院（2011-2015）</dd>
+                    <dt>工作年限</dt>
+                    <dd>5年</dd>
+                    <!--                    <dt>邮箱</dt>-->
+                    <!--                    <dd>623446617@qq.com</dd>-->
+                    <!--                    <dt>手机</dt>-->
+                    <!--                    <dd>15242569631</dd>-->
+                </dl>
+            </div>
+        </div>
+        <footer class="media">
+            <a href="https://github.com/623446617" target="_blank">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            </a>
+            <a href="https://gitee.com/mengxianwei.github.io" target="_blank">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-gitee"></use>
+                </svg>
+            </a>
+            <a href="https://juejin.cn/user/1846785237064478" target="_blank">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-juejin"></use>
+                </svg>
+            </a>
+        </footer>
+    </div>
+
+    <p class="downloadResume-wrapper">
+        <a class="downloadResume" href="../resume.pdf" target="_blank" download>下载 PDF 简历</a>
+    </p>
+
+    <p class="selfIntroduction">
+        5年web开发经验，参与过多个PC端项目与移动端项目开发，熟练使用Vue全家桶，<br>React全家桶，Webpack构建工具，
+        为人积极乐观，待人和善，具有较强的团队意识与抗压能力。
+    </p>
+
+</main>
+
+<section data-x id="experience" class="experience">
+    <h2>工作经历</h2>
+    <div style="margin-top: 30px;" class="time-line"></div>
+</section>
+
+<section data-x id="skills" class="skills">
+    <h2>技术能力</h2>
+
+    <div class="section-body skills-body base-shadow">
+        <ul class="skill-tabs clearfix" style="margin-bottom: 25px">
+            <li>Html 5</li>
+            <li>Css 3</li>
+            <li>JavaScript</li>
+            <li>AJAX</li>
+            <li>jQuery</li>
+            <li>Vue</li>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Scss</li>
+            <li>Less</li>
+            <li>NodeJS</li>
+            <li>Webpack</li>
+            <li>Parcel</li>
+            <li>Java</li>
+            <li>Sql</li>
+            <li>Python</li>
+            <li>Git</li>
+            <li>Svn</li>
+            <li>Nginx</li>
+            <li>Linux</li>
+            <li>Docker</li>
+            <li>Object-C</li>
+        </ul>
+        <br>
+        <ol class="clearfix">
+            <li>
+                <h3>
+                    HTML 5 &amp; CSS 3
+                    <span>90%</span>
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    JavaScript
+                    <span>90%</span>
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    Vue
+                    <span>80%</span>
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    React
+                    <span>80%</span>
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    Angular
+                    <span>60%</span>
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 60%"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    Webpack
+                    <span>75%</span>
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    NodeJS
+                    <span>70%</span>
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 70%"></div>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    Git
+                    <span>75%</span>
+                </h3>
+                <div class="progressBar">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
+            </li>
+        </ol>
+    </div>
+
+
+</section>
+
+<section data-x id="projects" class="section projects">
+    <h2>项目经历</h2>
+    <ul class="section-body projects-body"></ul>
+</section>
+
+<section data-x id="works" class="portfolio">
+    <h2>作品展示</h2>
+    <nav>
+        <ol class="clearfix">
+            <li id="portfolio1" data-sjslink="all">所有</li>
+            <li id="portfolio2" data-sjslink="framework">框架</li>
+            <li id="portfolio3" data-sjslink="origin">原生JS&amp;CSS</li>
+            <li id="portfolio4" data-sjslink="github">Github</li>
+        </ol>
+        <div id="portfolioBar" class="bar state-1">
+            <div class="bar-inner"></div>
+        </div>
+    </nav>
+    <script>
+        portfolio1.onclick = function () {
+            portfolioBar.className = 'bar state-1'
+        }
+        portfolio2.onclick = function () {
+            portfolioBar.className = 'bar state-2'
+        }
+        portfolio3.onclick = function () {
+            portfolioBar.className = 'bar state-3'
+        }
+        portfolio4.onclick = function () {
+            portfolioBar.className = 'bar state-4'
+        }
+    </script>
+    <div class="works-body base-shadow" style="margin-top: 0; padding-bottom: 50px; height: 535px;">
+
+
+        <div id="sortable" class="sjs-default">
+            <div data-sjsel="framework" class="works-item">
+                <img width="100%" style="vertical-align: top;" src="./img/cadre.png" alt="">
+                <div class="works-item-mask">
+                    <a href="https://gitee.com/mengxianwei.github.io/cadre-info-system" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-gitee"></use>
+                        </svg>
+                    </a>
+                    <a href="http://www.mengxianwei.site:9001" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-link"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div data-sjsel="framework" class="works-item">
+                <img width="100%" style="vertical-align: top;" src="./img/remote.png" alt="">
+                <div class="works-item-mask">
+                    <a href="https://gitee.com/mengxianwei.github.io/remote" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-gitee"></use>
+                        </svg>
+                    </a>
+                    <a href="http://www.mengxianwei.site:9002" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-link"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div data-sjsel="origin" class="works-item">
+                <img width="100%" style="vertical-align: top;" src="./img/pikachu.png" alt="">
+                <div class="works-item-mask">
+                    <a href="https://github.com/623446617/pikachu" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                    </a>
+                    <a href="http://www.mengxianwei.site:9003/" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-link"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div data-sjsel="origin" class="works-item">
+                <img width="100%" style="vertical-align: top;" src="./img/nav.png" alt="">
+                <div class="works-item-mask">
+                    <a href="https://github.com/623446617/keyboard" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                    </a>
+                    <a href="http://www.mengxianwei.site:9004/" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-link"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div data-sjsel="framework" class="works-item">
+                <img width="100%" style="vertical-align: top;" src="./img/VQA.png" alt="">
+                <div class="works-item-mask">
+                    <a href="https://gitee.com/mengxianwei.github.io/zx-frontend" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-gitee"></use>
+                        </svg>
+                    </a>
+                    <a href="http://www.mengxianwei.site:9000" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-link"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+
+            <div data-sjsel="github" class="works-item">
+                <img width="100%" style="vertical-align: top;" src="./img/XWheels.png" alt="">
+                <div class="works-item-mask">
+                    <a href="https://github.com/623446617/wheels" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                    </a>
+                    <a href="http://www.mengxianwei.site:9005" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-link"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div data-sjsel="origin" class="works-item">
+                <img width="100%" style="vertical-align: top;" src="./img/resume.png" alt="">
+                <div class="works-item-mask">
+                    <div>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-link"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div data-sjsel="framework" class="works-item">
+                <img width="100%" style="vertical-align: top;" src="./img/map.png" alt="">
+                <div class="works-item-mask">
+
+                    <a href="http://www.mengxianwei.site:9007/view1" target="_blank">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-link"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<section data-x id="blog" class="section">
+    <h2>博客文章</h2>
+    <div class="swiper-container section-body base-shadow">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="blog-content">
+                    <svg class="icon blog-icon" aria-hidden="true">
+                        <use xlink:href="#icon-quotes"></use>
+                    </svg>
+                    <h1 class="blog-title"><a href="https://juejin.cn/post/6906486131215302663" target="_blank">从零开始构建Webpack项目系列</a></h1>
+                    <p class="blog-desc">从零开始，一步一步地介绍如何在项目中使用Webpack，以及结合自身的实战经验，分享Webpack 的使用技巧与常见优化方法。</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-content">
+                    <svg class="icon blog-icon" aria-hidden="true">
+                        <use xlink:href="#icon-quotes"></use>
+                    </svg>
+                    <h1 class="blog-title"><a href="https://juejin.cn/post/6934165507306160141/" target="_blank">Web性能优化-图片懒加载</a></h1>
+                    <p class="blog-desc">图片懒加载在一些图片密集型的网站中运用比较多，通过图片懒加载可以避免一次性加载过多的图片导致请求阻塞，这样就可以提高网站的加载速度，提高用户体验。 </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-content">
+                    <svg class="icon blog-icon" aria-hidden="true">
+                        <use xlink:href="#icon-quotes"></use>
+                    </svg>
+                    <h1 class="blog-title"><a href="https://juejin.cn/post/6934182172694118414/" target="_blank">Web性能优化-防抖与节流</a></h1>
+                    <p class="blog-desc">浏览器的 resize、scroll、keypress、mousemove 等事件在触发时，会不断地调用绑定在事件上的回调函数，极大地浪费资源，降低前端性能。为了优化体验，需要对这类事件进行调用次数的限制。</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-content">
+                    <svg class="icon blog-icon" aria-hidden="true">
+                        <use xlink:href="#icon-quotes"></use>
+                    </svg>
+                    <h1 class="blog-title"><a href="https://juejin.cn/post/6934214542108934151/" target="_blank">移动端适配方案</a></h1>
+                    <p class="blog-desc">移动端的机型是非常多的，所以我们常常需要用大量的代码来解决适配得问题，有没有一种方案，可以用少量的代码适配大量的机型呢？当前这篇文章就介绍了REM方案与postcss-px-to-viewport方案是如何解决这些问题的。</p>
+                </div>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <!--        <div class="swiper-pagination"></div>-->
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- 如果需要滚动条 -->
+        <!--<div class="swiper-scrollbar"></div>-->
+    </div>
+</section>
+
+<section data-x id="connect" class="section connect">
+    <h2>联系方式</h2>
+    <div class="section-body connect-body">
+        <dl class="connect-info clearfix base-shadow">
+            <dt>
+                <div>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-location"></use>
+                    </svg>
+                </div>
+            </dt>
+            <dd>
+                <h4>所在城市</h4>
+                <p>辽宁省大连市</p>
+            </dd>
+
+            <dt>
+                <div>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg>
+                </div>
+            </dt>
+            <dd>
+                <h4>微信</h4>
+                <p>mxw623446617</p>
+            </dd>
+
+            <dt>
+                <div>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-tel"></use>
+                    </svg>
+                </div>
+            </dt>
+            <dd>
+                <h4>电话</h4>
+                <p>15242569631</p>
+            </dd>
+
+            <dt>
+                <div>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-email"></use>
+                    </svg>
+                </div>
+            </dt>
+            <dd>
+                <h4>邮箱</h4>
+                <p>623446617@qq.com</p>
+            </dd>
+        </dl>
+        <div class="connect-form base-shadow">
+            <label>
+                姓名
+                <input type="text" id="name"/>
+            </label>
+
+            <label>
+                邮箱
+                <input type="text" id="email"/>
+            </label>
+
+            <label>
+                留言
+                <textarea id="message" name="" cols="30" rows="7"></textarea>
+            </label>
+            <button class="submit" id="submit">发送</button>
+        </div>
+    </div>
+
+</section>
+</body>
+<script src="../libs/swiper/swiper.min.js"></script>
+<script src="../libs/tween.js"></script>
+<script src="../libs/sortabel/sortable.min.js"></script>
+
+<script src="./js/base/View.js"></script>
+<script src="./js/base/Model.js"></script>
+<script src="./js/base/Controller.js"></script>
+<!-- 模块化 -->
+<script src="./js/init-swiper.js"></script>
+<script src="./js/sticky-topbar.js"></script>
+<script src="./js/auto-slide-up.js"></script>
+<script src="./js/smoothly-navigation.js"></script>
+<script src="./js/section-experience.js"></script>
+<script src="./js/section-projects.js"></script>
+<script src="./js/section-connect.js"></script>
+<script type="text/javascript">
+    // 瀑布流排序插件
+    document.querySelector('#sortable').sortablejs();
+
+    function onload() {
+        loading.style.display = 'none';
+
+        setTimeout(function () {
+            about.classList.add('active');
+        }, 100)
+
+
+    }
+</script>
+</html>
