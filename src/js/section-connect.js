@@ -18,7 +18,7 @@
             let name = this.view.querySelector('#name');
             let email = this.view.querySelector('#email');
             let message = this.view.querySelector('#message');
-            let res = await this.model.post('http://localhost:3000/api/connect/create', {
+            let res = await this.model.post('/api/connect/create', {
                 name: name.value,
                 email: email.value,
                 message: message.value
